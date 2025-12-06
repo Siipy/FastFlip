@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shadows of the Motherland</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      background: #0f141a;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      color: #d7d7d7;
+      overflow: hidden;
+    }
+    #loading {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      letter-spacing: 1px;
+      color: #8f9db3;
+    }
+    canvas { display: block; }
+  </style>
+</head>
+<body>
+  <div id="loading">Loading Shadows of the Motherland...</div>
+  <canvas id="game"></canvas>
+  <script type="module" src="game.js"></script>
+</body>
+</html>
