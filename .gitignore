@@ -1,0 +1,14 @@
+node_modules
+npm-debug.log*
+pnpm-lock.yaml
+yarn.lock
+.env
+.env.*
+.DS_Store
+server/node_modules
+web/node_modules
+dist
+server/dist
+web/dist
+.prisma
+coverage

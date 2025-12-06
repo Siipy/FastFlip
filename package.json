@@ -1,0 +1,14 @@
+{
+  "name": "fastflip",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FlipFinder monorepo (server + web)",
+  "workspaces": [
+    "server",
+    "web"
+  ],
+  "scripts": {
+    "format": "npm run format --workspace=server && npm run format --workspace=web",
+    "lint": "npm run lint --workspace=server && npm run lint --workspace=web"
+  }
+}
